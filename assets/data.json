@@ -13,7 +13,7 @@
         "technologies": "Flutter, Dart, Visual Studio Code",
         "appStoreLink": "https://apps.apple.com/gb/app/halo-for-niagara-4/id1593878277?platform=iphone",
         "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.halo_for_niagara4",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
+        "image": "assets/images/halo_for_niagara_4.png"
     },
     {
         "appName": "IHP Install",
@@ -21,7 +21,7 @@
         "technologies": "Flutter, Dart, Visual Studio Code",
         "appStoreLink": "https://apps.apple.com/gb/app/ihp-install/id1594394001?platform=iphone",
         "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.ihp_install",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
+        "image": "assets/images/ihp_install.png"
     },
     {
         "appName": "Simaxx Mobile",
@@ -29,7 +29,7 @@
         "technologies": "Flutter, Dart, Visual Studio Code",
         "appStoreLink": "https://apps.apple.com/gb/app/simaxx-mobile/id1595888441?platform=iphone",
         "playStoreLink": "https://play.google.com/store/apps/details?id=com.simaxx.simaxx_mobile",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
+        "image": "assets/images/simaxx_mobile.png"
     },
     {
         "appName": "eBMS / Alarms",
@@ -37,7 +37,7 @@
         "technologies": "Java, Android Studio",
         "appStoreLink": "",
         "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.ebmsalarms",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
+        "image": "assets/images/ebms_alarms.png"
     },
     {
         "appName": "CrossTalk 3 (Mobile)",
@@ -45,6 +45,6 @@
         "technologies": "Java, Android Studio",
         "appStoreLink": "",
         "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.crosstalk3mobile",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
+        "image": "assets/images/crosstalk_3_mobile.png"
     }
 ]
