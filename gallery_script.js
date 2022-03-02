@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $.getJSON('assets/data.json', function (data) {
+    $.getJSON('assets/data2.json', function (data) {
         var products = data;
 
         var j = 0;
