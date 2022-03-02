@@ -37,15 +37,6 @@ $(document).ready(function () {
             "image": "assets/images/simaxx_mobile.png"
         },
         {
-            "appName": "SSB Ironman",
-            "year": "2021",
-            "technologies": "Flutter, Dart, Visual Studio Code",
-            "appStoreLink": "",
-            "playStoreLink": "",
-            "githubLink": "https://github.com/ConnorLee2/SSB-Ironman",
-            "image": "assets/images/ssb_ironman.png"
-        },
-        {
             "appName": "eBMS / Alarms",
             "year": "2020",
             "technologies": "Java, Android Studio",
