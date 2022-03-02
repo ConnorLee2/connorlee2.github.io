@@ -1,95 +1,50 @@
 [
     {
-        "id": "1",
-        "name": "Book Name 1",
-        "category": "Computers",
-        "price": "$ 123",
+        "appName": "Halo Smart IoT",
+        "year": "2021",
+        "technologies": "Flutter, Dart, Visual Studio Code",
+        "appStoreLink": "https://apps.apple.com/gb/app/ebms-iot/id1565355086",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.ebms_iot",
+        "image": "assets/images/halo_smart_iot.webp"
+    },
+    {
+        "appName": "Halo for Niagara 4",
+        "year": "2021",
+        "technologies": "Flutter, Dart, Visual Studio Code",
+        "appStoreLink": "https://apps.apple.com/gb/app/halo-for-niagara-4/id1593878277?platform=iphone",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.halo_for_niagara4",
         "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
     },
     {
-        "id": "1",
-        "name": "Book Name 1",
-        "category": "Computers",
-        "price": "$ 123",
+        "appName": "IHP Install",
+        "year": "2021",
+        "technologies": "Flutter, Dart, Visual Studio Code",
+        "appStoreLink": "https://apps.apple.com/gb/app/ihp-install/id1594394001?platform=iphone",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.ihp_install",
         "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
     },
     {
-        "id": "1",
-        "name": "Book Name 1",
-        "category": "Computers",
-        "price": "$ 123",
+        "appName": "Simaxx Mobile",
+        "year": "2021",
+        "technologies": "Flutter, Dart, Visual Studio Code",
+        "appStoreLink": "https://apps.apple.com/gb/app/simaxx-mobile/id1595888441?platform=iphone",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.simaxx.simaxx_mobile",
         "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
     },
     {
-        "id": "1",
-        "name": "Book Name 1",
-        "category": "Computers",
-        "price": "$ 123",
+        "appName": "eBMS / Alarms",
+        "year": "2020",
+        "technologies": "Java, Android Studio",
+        "appStoreLink": "",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.ebmsalarms",
         "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
     },
     {
-        "id": "1",
-        "name": "Book Name 1",
-        "category": "Computers",
-        "price": "$ 123",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
-    },
-    {
-        "id": "1",
-        "name": "Book Name 1",
-        "category": "Computers",
-        "price": "$ 123",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
-    },
-    {
-        "id": "1",
-        "name": "Book Name 1",
-        "category": "Computers",
-        "price": "$ 123",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
-    },
-    {
-        "id": "1",
-        "name": "Book Name 1",
-        "category": "Computers",
-        "price": "$ 123",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
-    },
-    {
-        "id": "1",
-        "name": "Book Name 1",
-        "category": "Computers",
-        "price": "$ 123",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
-    },
-    {
-        "id": "2",
-        "name": "Book Name 2",
-        "category": [
-            "Science",
-            "Programming"
-        ],
-        "price": "$ 319",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
-    },
-    {
-        "id": "2",
-        "name": "Book Name 2",
-        "category": [
-            "Science",
-            "Programming"
-        ],
-        "price": "$ 319",
-        "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
-    },
-    {
-        "id": "2",
-        "name": "Book Name 2",
-        "category": [
-            "Science",
-            "Programming"
-        ],
-        "price": "$ 319",
+        "appName": "CrossTalk 3 (Mobile)",
+        "year": "2020",
+        "technologies": "Java, Android Studio",
+        "appStoreLink": "",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.crosstalk3mobile",
         "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
     }
 ]

@@ -10,20 +10,116 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script>
         $(document).ready(function () {
+            
             $.getJSON('assets/data.json', function (data) {
-                var products = data;
-
                 var j = 0;
-                var content = "";
-                for (var i in products) {
-                    if (i % 3 === 0) {
-                        $("#products").append("<tr id='row" + i + "'></tr>");
-                        j = i;
-                    }
-                    $("#row" + j).append("<td><div><img src='" + products[i].image + "' style='width:130px;height:200px;'></div><div class='text-center'>" + products[i].name + " </br><div>" + products[i].price + "</div></div></td>");
-                }
-            });
+            var content = "";
+            var appStoreIconSvg = "";
+            var playStoreIconSvg = "https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg";
 
+            for (var i in data) {
+                // Hide play store icon if no relevant link
+                if (data[i].playStoreLink === "") {
+                    playStoreIconSvg = "";
+                } else {
+                    playStoreIconSvg = "https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg";
+                }
+
+                // Hide app store icon if no relevant link
+                if (data[i].appStoreLink === "") {
+                    appStoreIconSvg = "";
+                } else {
+                    appStoreIconSvg = "https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg";
+                }
+                // Create a row
+                if (i % 3 === 0) {
+                    $("#apps").append("<div class='row pb-3' id='row" + i + "'></div>");
+                    j = i;
+                }
+                // Add up to 3 items to a row
+                $("#row" + j).append("<div class='col-sm-4 pb-3'><div class='card px-2 py-2'><div class='card-body'><h3 class='card-title'>" +
+                    data[i].appName + "</h3><a href='"+ data[i].appStoreLink + "'><img width='32px' src='"+ appStoreIconSvg + "'></a> <a href='"+ data[i].playStoreLink + "'><img width='32px' src='"+ playStoreIconSvg + "'></a><p class='card-text text-primary'>"+ "Year: " + data[i].year + "<br >" + data[i].technologies + "</p></div><img src='"+ data[i].image + "' class='card-img-top px-4 pt-2 pb-4' alt='...'></div></div>");
+            }
+            });
+            /*var apps = [
+                {
+                    "appName": "Halo Smart IoT",
+                    "year": "2021",
+                    "technologies": "Flutter, Dart, Visual Studio Code",
+                    "appStoreLink": "https://apps.apple.com/gb/app/ebms-iot/id1565355086",
+                    "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.ebms_iot",
+                    "image": "assets/images/halo_smart_iot.webp"
+                },
+                {
+                    "appName": "Halo for Niagara 4",
+                    "year": "2021",
+                    "technologies": "Flutter, Dart, Visual Studio Code",
+                    "appStoreLink": "https://apps.apple.com/gb/app/halo-for-niagara-4/id1593878277?platform=iphone",
+                    "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.halo_for_niagara4",
+                    "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
+                },
+                {
+                    "appName": "IHP Install",
+                    "year": "2021",
+                    "technologies": "Flutter, Dart, Visual Studio Code",
+                    "appStoreLink": "https://apps.apple.com/gb/app/ihp-install/id1594394001?platform=iphone",
+                    "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.ihp_install",
+                    "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
+                },
+                {
+                    "appName": "Simaxx Mobile",
+                    "year": "2021",
+                    "technologies": "Flutter, Dart, Visual Studio Code",
+                    "appStoreLink": "https://apps.apple.com/gb/app/simaxx-mobile/id1595888441?platform=iphone",
+                    "playStoreLink": "https://play.google.com/store/apps/details?id=com.simaxx.simaxx_mobile",
+                    "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
+                },
+                {
+                    "appName": "eBMS / Alarms",
+                    "year": "2020",
+                    "technologies": "Java, Android Studio",
+                    "appStoreLink": "",
+                    "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.ebmsalarms",
+                    "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
+                },
+                {
+                    "appName": "CrossTalk 3 (Mobile)",
+                    "year": "2020",
+                    "technologies": "Java, Android Studio",
+                    "appStoreLink": "",
+                    "playStoreLink": "https://play.google.com/store/apps/details?id=com.tyrrell.crosstalk3mobile",
+                    "image": "https://static.boredpanda.com/blog/wp-content/uuuploads/tunnel-of-love-ukraine/tunnel-of-love-ukraine-6.jpg"
+                }
+            ];*/
+
+            var j = 0;
+            var content = "";
+            var appStoreIconSvg = "";
+            var playStoreIconSvg = "https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg";
+
+            for (var i in apps) {
+                // Hide play store icon if no relevant link
+                if (apps[i].playStoreLink === "") {
+                    playStoreIconSvg = "";
+                } else {
+                    playStoreIconSvg = "https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg";
+                }
+
+                // Hide app store icon if no relevant link
+                if (apps[i].appStoreLink === "") {
+                    appStoreIconSvg = "";
+                } else {
+                    appStoreIconSvg = "https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg";
+                }
+                // Create a row
+                if (i % 3 === 0) {
+                    $("#apps").append("<div class='row pb-3' id='row" + i + "'></div>");
+                    j = i;
+                }
+                // Add up to 3 items to a row
+                $("#row" + j).append("<div class='col-sm-4 pb-3'><div class='card px-2 py-2'><div class='card-body'><h3 class='card-title'>" +
+                     apps[i].appName + "</h3><a href='"+ apps[i].appStoreLink + "'><img width='32px' src='"+ appStoreIconSvg + "'></a> <a href='"+ apps[i].playStoreLink + "'><img width='32px' src='"+ playStoreIconSvg + "'></a><p class='card-text text-primary'>"+ "Year: " + apps[i].year + "<br >" + apps[i].technologies + "</p></div><img src='"+ apps[i].image + "' class='card-img-top px-4 pt-2 pb-4' alt='...'></div></div>");
+            }
         });
     </script>
 </head>
@@ -45,55 +141,7 @@
     </div>
 
     <!-- Gallery Area -->
-    <!-- App name, link, picture, technology used -->
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card px-2 py-2" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">App name</h5>
-                        <a href="https://www.google.com"><img width="32px"
-                                src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg"></a>
-                        <a href="https://www.github.com"><img width="32px"
-                                src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg"></a>
-                        <p class="card-text text-primary">Flutter, Dart, Visual Studio Code</p>
-                    </div>
-                    <img src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-                        class="card-img-top px-4 py-4" alt="...">
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                    <img src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-                        class="card-img-top" alt="...">
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                    <img src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-                        class="card-img-top" alt="...">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <body>
-        <table class="table">
-            <tbody id="products"></tbody>
-        </table>
-    </body>
+    <div class="container mt-5" id="apps"></div>
 
 </body>
 
