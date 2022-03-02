@@ -76,7 +76,7 @@ $(document).ready(function () {
             j = i;
         }
         // Add up to 3 items to a row
-        $("#row" + j).append("<div class='col-sm-4 pb-3'><div class='card px-2 py-2'><div class='card-body'><h3 class='card-title'>" +
+        $("#row" + j).append("<div class='col-sm-4 pb-3'><div class='card px-2 py-2 bg-dark border-light'><div class='card-body'><h3 class='card-title text-white'>" +
             apps[i].appName + "</h3><a href='" + apps[i].appStoreLink + "'><img width='32px' style='" + appStoreStyle + "'src='" + appStoreIconSvg + "'></a> <a href='" + apps[i].playStoreLink + "'><img width='32px' style='" + playStoreStyle + "'src='" + playStoreIconSvg + "'></a><p class='card-text text-primary'>" + "Year: " + apps[i].year + "<br >" + apps[i].technologies + "</p></div><img src='" + apps[i].image + "' class='card-img-top px-4 pt-2 pb-4' alt='...'></div></div>");
     }
 });

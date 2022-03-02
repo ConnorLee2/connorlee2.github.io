@@ -1,6 +1,5 @@
 $(document).ready(function () {
-    $.getJSON('assets/data.json', function (data) {
-        print(data);
+    $.getJSON('https://github.com/ConnorLee2/connorlee2.github.io/blob/main/assets/data.json', function (data) {
         var apps = data;
         var j = 0;
         var appStoreIconSvg = "https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg";
