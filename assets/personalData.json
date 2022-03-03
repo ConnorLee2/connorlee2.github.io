@@ -1,0 +1,47 @@
+[
+    {
+        "appName": "SSB Ironman",
+        "year": "2021",
+        "technologies": "Flutter, Dart, Visual Studio Code",
+        "appStoreLink": "",
+        "playStoreLink": "",
+        "githubLink": "https://github.com/ConnorLee2/SSB-Ironman",
+        "image": "assets/images/ssb_ironman.png"
+    },
+    {
+        "appName": "Weather App (iOS)",
+        "year": "2020",
+        "technologies": "Swift, Xcode",
+        "appStoreLink": "",
+        "playStoreLink": "",
+        "githubLink": "https://github.com/ConnorLee2/WeatherAppiOS",
+        "image": "assets/images/weather_app_ios.png"
+    },
+    {
+        "appName": "Weather Systems (GL)",
+        "year": "2018",
+        "technologies": "Visual Studio, C++, OpenGL",
+        "appStoreLink": "",
+        "playStoreLink": "",
+        "githubLink": "https://github.com/ConnorLee2/WeatherSystemsGL",
+        "image": "assets/images/weather_systems_gl.png"
+    },
+    {
+        "appName": "2D Game Engine",
+        "year": "2018",
+        "technologies": "Visual Studio, C++, SFML",
+        "appStoreLink": "",
+        "playStoreLink": "",
+        "githubLink": "https://github.com/ConnorLee2/2D-Game-Engine",
+        "image": "assets/images/2d_game_engine.png"
+    },
+    {
+        "appName": "Weather App (Android)",
+        "year": "2017",
+        "technologies": "Java, Android Studio",
+        "appStoreLink": "",
+        "playStoreLink": "",
+        "githubLink": "https://github.com/ConnorLee2/WeatherApp",
+        "image": "assets/images/weather_app_android.jpeg"
+    }
+]
