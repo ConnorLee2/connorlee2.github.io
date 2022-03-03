@@ -2,10 +2,7 @@ $(document).ready(function () {
     $.ajax({
         dataType: "json",
         url: 'assets/personalData.json',
-        data: data,
-        success: success
-      });
-    $.getJson('assets/personalData.json', function (data) {
+        success: function (data) {
         var personalApps = data;
 
         var y = 0;
