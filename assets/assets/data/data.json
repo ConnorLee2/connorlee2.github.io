@@ -1,5 +1,14 @@
 [
   {
+    "name": "flutter_recipe_ui",
+    "type": "personal",
+    "links": "https://github.com/ConnorLee2/recipe_ui_app",
+    "language": "Flutter/Dart",
+    "ide": "Visual Studio Code",
+    "image": "assets/images/recipe_ui_app.png",
+    "detail": "Personal project for UI practice using Flutter.\nThe idea is to take a UI design and create it in Flutter.\nIt is based on this design https://dribbble.com/shots/5715496-Recipe-App-Design-Concept."
+  },
+  {
     "name": "Halo Smart IoT",
     "type": "work",
     "links": "https://apps.apple.com/gb/app/ebms-iot/id1565355086\nhttps://play.google.com/store/apps/details?id=com.tyrrell.ebms_iot",
@@ -60,7 +69,7 @@
     "language": "Flutter/Dart",
     "ide": "Visual Studio Code",
     "image": "",
-    "detail": "CV/Portfolio page created using Flutter. The website you are seeing should be this!"
+    "detail": "CV/Portfolio page created using Flutter.\nThe website you are seeing should be this!"
   },
   {
     "name": "eBMS / VDE",
@@ -96,7 +105,7 @@
     "language": "Java",
     "ide": "Android Studio",
     "image": "assets/images/ebms_mobile.webp",
-    "detail": "Primarily bug fixes and improvements.\nThis app had a lot of aging code and libraries that were no longer maintained. It was updated to work with newer versions of Android and run with newer versions of Niagara as well."
+    "detail": "Primarily bug fixes and improvements.\nThis app had a lot of aging code and libraries that were no longer maintained.\nIt was updated to work with newer versions of Android and run with newer versions of Niagara as well."
   },
   {
     "name": "eBMS / TouchView",

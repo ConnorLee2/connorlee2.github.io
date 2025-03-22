@@ -3,10 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "19899202200fc44e85422db1e4d376d2",
-"assets/AssetManifest.bin.json": "c4f52718f127781ec2cbf0e3fb57d2d5",
-"assets/AssetManifest.json": "17f620bbd6f13fb67e62528cc8eb8f54",
-"assets/assets/data/data.json": "fd383037ffc185b0e0965b532fc969e3",
+const RESOURCES = {"assets/AssetManifest.bin": "6dde3944c7f6806ce3e7695a6fa6b33f",
+"assets/AssetManifest.bin.json": "fc0f9bc614373b34d12cc0ab97233a49",
+"assets/AssetManifest.json": "9e8611af7747398e2d79f4d604880f84",
+"assets/assets/data/data.json": "dabd84e068a830900dc6627f1b004c89",
 "assets/assets/images/2d_game_engine.png": "e0c0f68102428b1b1c8dbe89f55ba4a2",
 "assets/assets/images/crosstalk_3_mobile.png": "48e51b74f8557d4de3bb025109fb2f2d",
 "assets/assets/images/ebms_alarms.png": "66d1fc4dd9d557fc514dde63c16f3a81",
@@ -15,6 +15,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "19899202200fc44e85422db1e4d376d2
 "assets/assets/images/halo_for_niagara_4.png": "77bd744a83b24aac7c30b80e5d8faecf",
 "assets/assets/images/halo_smart_iot.webp": "42ad8ac64ad2d269001574145e3df584",
 "assets/assets/images/ihp_install.png": "f9962c57bfd55668574f1d9eec6f0594",
+"assets/assets/images/recipe_ui_app.png": "4df7c659a199e04cd34af9730fcf7aae",
 "assets/assets/images/simaxx_mobile.png": "21bf36f48f1a1c71c05c34f76fc84ee1",
 "assets/assets/images/ssb_ironman.png": "9b3459aa66d5ce1ea14687cda2e7dd16",
 "assets/assets/images/weather_app_android.jpeg": "79a6aeab65d3a38f41101cc3772d5f27",
@@ -22,7 +23,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "19899202200fc44e85422db1e4d376d2
 "assets/assets/images/weather_systems_gl.png": "20d6071e0f16b065e6cadde90b204e09",
 "assets/FontManifest.json": "3ddd9b2ab1c2ae162d46e3cc7b78ba88",
 "assets/fonts/MaterialIcons-Regular.otf": "343c3c059355dca464bea096a2f86d57",
-"assets/NOTICES": "9617ff874b57cc353295c021df281c23",
+"assets/NOTICES": "38975ad6f24b22b55c0427dcad651642",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d3ffbca4d01ef3350f01b96a4add8493",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "3ca5dc7621921b901d513cc1ce23788c",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "b8e115461d3462765ba6ed11092dc198",
@@ -41,14 +42,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "19899202200fc44e85422db1e4d376d2
 "canvaskit/skwasm_st.wasm": "56c3973560dfcbf28ce47cebe40f3206",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "76f08d47ff9f5715220992f993002504",
-"flutter_bootstrap.js": "7f2374f0f7722753182b20d371432cce",
+"flutter_bootstrap.js": "27b25de187ab81acc60e81259624a3a5",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "b4459835260656f614edc046bb3ca2a6",
 "/": "b4459835260656f614edc046bb3ca2a6",
-"main.dart.js": "8f8a91167add443a0dd4318f49c306d3",
+"main.dart.js": "3d90eafc7858b46a49e24260b71abf46",
 "manifest.json": "84adca79640e830218302d2102cd232a",
 "version.json": "e09a5ae0477f46be2219159fe1a2ddcd"};
 // The application shell files that are downloaded before a service worker can
